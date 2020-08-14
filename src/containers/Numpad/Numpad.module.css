@@ -1,0 +1,77 @@
+.numpad{
+    width: 50%;
+    height: 36rem;
+    justify-self: center;
+    align-self: center;
+    background-color: #1A1D1E;
+    box-shadow: 0 1.2rem 2rem rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+}
+.phone-number{
+    flex-grow: 2;
+    display:grid;
+}
+.phone-number input{
+    justify-self: center;
+    align-self: center;
+    background-color: transparent;
+    border-width: 0;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    color:white;
+    caret-color:white;
+    z-index:500;
+}
+.phone-number input:focus{
+    outline: none;
+}
+.send-code{
+    flex-grow: 1;
+    border:none;
+    background-color: #9E1B1F;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+}
+.send-code span{
+    display: inline-block;
+    transition: all 0.2s;
+    font-size: 1.2rem;
+}
+.send-code:hover span{
+    transform: scale(1.2);
+}
+@media(max-width:1300px){
+    .numpad{
+        width:60%;
+    }
+}
+@media(max-width:1000px){
+    .numpad{
+        width:70%;
+    }
+}
+@media(max-width:900px){
+    .numpad{
+        width:45%;
+    }
+}
+@media(max-width:700px){
+    .numpad{
+        width:55%;
+    }
+}
+@media(max-width:530px){
+    .numpad{
+        width:75%;
+    }
+}
+@media(max-width:380px){
+    .numpad{
+        width:100%;
+    }
+}

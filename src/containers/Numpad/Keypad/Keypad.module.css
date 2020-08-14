@@ -1,0 +1,35 @@
+.keypad{
+    flex-grow: 4;
+    width: 100%;
+    background-color: #202628;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.keypad .num-holder{
+    font-size: 1.8rem;
+    color:#1b9e9a;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    display:grid;
+    transition: all 0.1s;
+}
+.num-holder p{
+    justify-self: center;
+    align-self: flex-end;
+    font-size: 1.9rem;
+
+}
+.num-holder span{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.keypad .num-holder:hover{
+    transform: scale(1.3);
+    color:#9E1B20;
+}
+.keypad .num-holder:active{
+    transform: scale(1.1);
+    color:#9E1B20;
+}
