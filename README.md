@@ -2,7 +2,7 @@
 Crime Zero Inc is an application which sends an emergency sms code to a superhero of your choice expecting them to solve the crime, thereby reducing the crime rate.
 
 # Link to the project
-The final version of this application is running on heroku [click here to goto ptoject](https://superhero-caller.herokuapp.com/).
+The final version of this application is running on heroku [click here to goto project](https://superhero-caller.herokuapp.com/).
 
 # Tech/Framework used
 * __client side__- React js and React router dom
