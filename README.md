@@ -2,7 +2,7 @@
 Crime Zero Inc is an application which sends an emergency sms code to a superhero of your choice expecting them to solve the crime, thereby reducing the crime rate.
 
 # Link to the project
-The final version of this application is running on heroku link [click here to goto ptoject]().
+The final version of this application is running on heroku [click here to goto ptoject](https://superhero-caller.herokuapp.com/).
 
 # Tech/Framework used
 * __client side__- React js and React router dom
@@ -26,19 +26,26 @@ The final version of this application is running on heroku link [click here to g
 }
 ```
 # Installation to run locally
-To install all dependencies (node  should be installed)-
-```bash
-npm install
-```
-To start React App-
-```bash
- npm start
-```
-Back-end-
-```bash
-npm install
-```
-Run node-
-```bash
-node app.js
-```
+This link contains the full application created using create react app.
+NOTE: Node must be installed on the local machine.
+* To install all the required dependencies-
+  ```bash
+  npm install
+* To start the appplication on localhost-
+    ```bash
+    npm start
+    ```
+## For the application to work the node server must be running.
+Github link to sever files [click here for server repo](https://github.com/rudresh-hm/Crime-zero-server)
+* cd to above folder and run the following command
+    ```bash
+    npm install
+    ```
+* now run the app.js file
+    ```bash 
+    node app.js
+    ```
+Note: the server runs on port 8000.
+
+
+
