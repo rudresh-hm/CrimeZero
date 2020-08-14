@@ -27,11 +27,19 @@
 .left a{
     padding-left: 5rem;
 }
+.navigation span a:hover{
+    color: #5A97B3;
+}
 @media(max-width:500px){
     .logo{
         font-size: 1rem;
     }
     .link{
         font-size: 1rem;
+    }
+}
+@media(max-width:750px){
+    .navigation span a:hover{
+        color: #9E1B20;
     }
 }
